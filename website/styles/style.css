@@ -1,0 +1,144 @@
+/* ---------------------------
+   BASIC RESET
+---------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------------------
+   GLOBAL STYLES
+---------------------------- */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Smooth scroll behavior for in-page links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---------------------------
+   HERO SECTION
+---------------------------- */
+.hero {
+  /* Replace this with any URL you like or remove it for a solid color */
+  background: url('https://i.pinimg.com/736x/c1/3b/97/c13b97186c5dac52debbe803486fbcd2.jpg') no-repeat center center/cover;
+  height: 80vh; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  /* Semi-transparent overlay on the hero image */
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+  position: relative;
+  color: #fff; /* White text to contrast with background */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e65c00;
+}
+
+/* ---------------------------
+   FEATURES SECTION
+---------------------------- */
+#features {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+#features h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+#features p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* ---------------------------
+   NAVIGATION
+---------------------------- */
+nav {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 1rem auto;
+  max-width: 800px;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6600;
+}
+
+/* ---------------------------
+   FOOTER
+---------------------------- */
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+  margin-top: 2rem;
+}

@@ -1,0 +1,95 @@
+/* Cool gradient background and modern font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* Dark to light gradient */
+    background: linear-gradient(135deg, #2c3e50, #bdc3c7);
+    /* Make sure the background covers the full height */
+    min-height: 100vh; 
+    color: #ffffff;
+}
+
+/* Main heading with gold text and a subtle glow */
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 40px 0;
+    font-size: 2.5em;
+    color: #ffce00;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Style the paragraph text */
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px auto;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+/* button styling */
+button, .back-button {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 0 auto;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #111111;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+/* Play Button styling */
+button:hover, .back-button:hover {
+    background-color: #ffce00; 
+    color: #111111;
+    transform: translateY(-3px);
+}
+
+/* Center the "Play Game" button on the page */
+#playButton {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Game result text - bigger and bold */
+#gameResult {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffce00;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+/* Dice images container with a subtle border and spacing */
+#diceImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border: 2px solid #ffce00;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Spacing between dice images */
+#diceImages img {
+    margin: 0 20px;
+    transition: transform 0.3s;
+}
+
+/* Back button container, centered */
+.back-container {
+    text-align: center;
+    margin-top: 30px;
+}

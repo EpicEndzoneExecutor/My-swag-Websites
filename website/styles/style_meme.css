@@ -1,0 +1,36 @@
+/* 
+    Styles for Meme Image Mover
+*/
+
+/* Overall page styles */
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Meme image initially placed at an absolute position */
+#meme {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+/* Common button styles */
+button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Back button styling (optional customization) */
+.back-button {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+}
+
+.back-button:hover {
+    background-color: #bbb;
+}

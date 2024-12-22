@@ -1,0 +1,96 @@
+/* Set a background image for the page and some basic layout styles */
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: url('https://media1.tenor.com/m/wxQE20-l9hMAAAAC/motion-motion-cat.gif')
+        no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Style the main container */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+/* Style the header */
+h1 {
+    font-size: 24px;
+    color: #ff6b6b;
+}
+
+/* Style the input field */
+input[type='text'] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the buttons */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Check button styles */
+.check-btn {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.check-btn:hover {
+    background-color: #e65555;
+}
+
+/* Exit button styles (if used) */
+.exit-btn {
+    background-color: #ddd;
+    color: black;
+}
+
+.exit-btn:hover {
+    background-color: #bbb;
+}
+
+/* Style the result message */
+.result {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Additional style for the footer sound button (if needed) */
+.sound-btn {
+    margin-top: 20px;
+    background-color: #6b6bff;
+    color: white;
+}
+
+.sound-btn:hover {
+    background-color: #5555e6;
+}
+
+/* Optional styling for the Back button (using the same style as .exit-btn) */
+.back-btn {
+    background-color: #ddd;
+    color: black;
+}
+
+.back-btn:hover {
+    background-color: #bbb;
+}
